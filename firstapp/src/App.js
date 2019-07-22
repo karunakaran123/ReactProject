@@ -1,12 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <h3>Karunakar Thurlu</h3>
-      <p>MCA</p>
-    </div>
+const App = (props)=>{
+  return( 
+  <div> 
+     {props.children}
+  </div>
   );
 }
-
 export default App;
